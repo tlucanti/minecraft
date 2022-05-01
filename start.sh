@@ -1,22 +1,23 @@
-SERVER_FOLDER=minecraft_1_16_5
-FULL_PATH=~/Desktop/mine/serv/${SERVER_FOLDER}
- 
+SERVER_FOLDER=minecraft_1_18_2
+FULL_PATH=~/Desktop/minecraft/${SERVER_FOLDER}
+
 SERVER_PROPERTIES=(
     'enable-command-block=true'
     'gamemode=survival'
-    'level-name=survival-server'
+    'level-name=miet-server'
     'online-mode=false'
     'use-native-transport=false'
 )
 
 URL_1_16_5=https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 URL_1_18_1=https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
+URL_1_18_2=https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
 
-SERVER_DOWNLOAD_URL=$URL_1_16_5
+SERVER_DOWNLOAD_URL=$URL_1_18_2
 NGROK_DOWNLOAD_URL=https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
- 
+
 # ------------------------------------------------------------------------------
- 
+
 mkdir -p ${FULL_PATH}
 if [ ! -f ${FULL_PATH}/server.jar ]; then
     echo " >> downloading server.jar"
@@ -29,7 +30,7 @@ if [ ! -f ${FULL_PATH}/ngrok ]; then
     rm -rf ${FULL_PATH}/ngrok.zip
 fi
 chmod 777 ${FULL_PATH}/ngrok
- 
+
 cat server.properties > ${FULL_PATH}/server.properties 
 if [ ! -f ${FULL_PATH}/eula.txt ]; then
     echo " >> setup server files"
@@ -37,7 +38,11 @@ if [ ! -f ${FULL_PATH}/eula.txt ]; then
 fi
 
 if [ -f .env ]; then
+    _FULL_PATH=${FULL_PATH}
     source .env
+    FULL_PATH=${_FULL_PATH}
+    echo ${FULL_PATH} > .env
+    echo ${NGROK_AUTH_TOKEN} >> .env
 fi
 if [ "$NGROK_AUTH_TOKEN" = "" ]; then
     echo "you need to place ngrok auth token to enviroment variable $NGROK_AUTH_TOKEN or to .env file in current directory"
