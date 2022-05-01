@@ -41,8 +41,6 @@ if [ -f .env ]; then
     _FULL_PATH=${FULL_PATH}
     source .env
     FULL_PATH=${_FULL_PATH}
-    echo ${FULL_PATH} > .env
-    echo ${NGROK_AUTH_TOKEN} >> .env
 fi
 if [ "$NGROK_AUTH_TOKEN" = "" ]; then
     echo "you need to place ngrok auth token to enviroment variable $NGROK_AUTH_TOKEN or to .env file in current directory"
@@ -69,4 +67,5 @@ touch env.json
 echo "FULL_PATH=${FULL_PATH}" > .env
 echo "NGROK_AUTH_TOKEN=${NGROK_AUTH_TOKEN}" >> .env
 echo "{\"FULL_PATH\":\"${FULL_PATH}\",\"NGROK_AUTH_TOKEN\":\"${NGROK_AUTH_TOKEN}\"}" > env.json
+echo LEVEL_NAME=$(python -c "print('`grep level-name server.properties`'.split('=')[-1])") >> .env
 echo " >> done"
