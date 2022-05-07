@@ -1,91 +1,259 @@
-[22:28:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[22:28:55] [Server thread/INFO]: save<--[HERE]
-[22:29:02] [Server thread/INFO]: /advancement (grant|revoke)
-[22:29:02] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[22:29:02] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
-[22:29:02] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[22:29:02] [Server thread/INFO]: /clear [<targets>]
-[22:29:02] [Server thread/INFO]: /clone <begin> <end> <destination> [replace|masked|filtered]
-[22:29:02] [Server thread/INFO]: /data (merge|get|remove|modify)
-[22:29:02] [Server thread/INFO]: /datapack (enable|disable|list)
-[22:29:02] [Server thread/INFO]: /debug (start|stop|function)
-[22:29:02] [Server thread/INFO]: /defaultgamemode (survival|creative|adventure|spectator)
-[22:29:02] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[22:29:02] [Server thread/INFO]: /effect (clear|give)
-[22:29:02] [Server thread/INFO]: /me <action>
-[22:29:02] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[22:29:02] [Server thread/INFO]: /experience (add|set|query)
-[22:29:02] [Server thread/INFO]: /xp -> experience
-[22:29:02] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[22:29:02] [Server thread/INFO]: /forceload (add|remove|query)
-[22:29:02] [Server thread/INFO]: /function <name>
-[22:29:02] [Server thread/INFO]: /gamemode (survival|creative|adventure|spectator)
-[22:29:02] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[22:29:02] [Server thread/INFO]: /give <targets> <item> [<count>]
-[22:29:02] [Server thread/INFO]: /help [<command>]
-[22:29:02] [Server thread/INFO]: /item (replace|modify)
-[22:29:02] [Server thread/INFO]: /kick <targets> [<reason>]
-[22:29:02] [Server thread/INFO]: /kill [<targets>]
-[22:29:02] [Server thread/INFO]: /list [uuids]
-[22:29:02] [Server thread/INFO]: /locate <structure>
-[22:29:02] [Server thread/INFO]: /locatebiome <biome>
-[22:29:02] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[22:29:02] [Server thread/INFO]: /msg <targets> <message>
-[22:29:02] [Server thread/INFO]: /tell -> msg
-[22:29:02] [Server thread/INFO]: /w -> msg
-[22:29:02] [Server thread/INFO]: /particle <name> [<pos>]
-[22:29:02] [Server thread/INFO]: /placefeature <feature> [<pos>]
-[22:29:02] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[22:29:02] [Server thread/INFO]: /reload
-[22:29:02] [Server thread/INFO]: /recipe (give|take)
-[22:29:02] [Server thread/INFO]: /say <message>
-[22:29:02] [Server thread/INFO]: /schedule (function|clear)
-[22:29:02] [Server thread/INFO]: /scoreboard (objectives|players)
-[22:29:02] [Server thread/INFO]: /seed
-[22:29:02] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[22:29:02] [Server thread/INFO]: /spawnpoint [<targets>]
-[22:29:02] [Server thread/INFO]: /setworldspawn [<pos>]
-[22:29:02] [Server thread/INFO]: /spectate [<target>]
-[22:29:02] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[22:29:02] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[22:29:02] [Server thread/INFO]: /summon <entity> [<pos>]
-[22:29:02] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[22:29:02] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[22:29:02] [Server thread/INFO]: /teammsg <message>
-[22:29:02] [Server thread/INFO]: /tm -> teammsg
-[22:29:02] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[22:29:02] [Server thread/INFO]: /tp -> teleport
-[22:29:02] [Server thread/INFO]: /tellraw <targets> <message>
-[22:29:02] [Server thread/INFO]: /time (set|add|query)
-[22:29:02] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[22:29:02] [Server thread/INFO]: /trigger <objective> [add|set]
-[22:29:02] [Server thread/INFO]: /weather (clear|rain|thunder)
-[22:29:02] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[22:29:02] [Server thread/INFO]: /jfr (start|stop)
-[22:29:02] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[22:29:02] [Server thread/INFO]: /banlist [ips|players]
-[22:29:02] [Server thread/INFO]: /ban <targets> [<reason>]
-[22:29:02] [Server thread/INFO]: /deop <targets>
-[22:29:02] [Server thread/INFO]: /op <targets>
-[22:29:02] [Server thread/INFO]: /pardon <targets>
-[22:29:02] [Server thread/INFO]: /pardon-ip <target>
-[22:29:02] [Server thread/INFO]: /perf (start|stop)
-[22:29:02] [Server thread/INFO]: /save-all [flush]
-[22:29:02] [Server thread/INFO]: /save-off
-[22:29:02] [Server thread/INFO]: /save-on
-[22:29:02] [Server thread/INFO]: /setidletimeout <minutes>
-[22:29:02] [Server thread/INFO]: /stop
-[22:29:02] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[22:29:14] [Server thread/INFO]: Saving the game (this may take a moment!)
-[22:29:14] [Server thread/INFO]: Saved the game
-[22:31:33] [Server thread/INFO]: Stopping the server
-[22:31:33] [Server thread/INFO]: Stopping server
-[22:31:33] [Server thread/INFO]: Saving players
-[22:31:33] [Server thread/INFO]: Saving worlds
-[22:31:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:overworld
-[22:31:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:the_nether
-[22:31:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:the_end
-[22:31:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (miet-server): All chunks are saved
-[22:31:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:31:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:31:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:14:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:14:55] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:14:55] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:14:56] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:14:56] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:14:56] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:14:57] [Worker-Main-11/INFO]: Loaded 7 recipes
+[11:14:57] [Worker-Main-11/INFO]: Loaded 1141 advancements
+[11:15:00] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[11:15:00] [Server thread/INFO]: Loading properties
+[11:15:00] [Server thread/INFO]: Default game type: SURVIVAL
+[11:15:00] [Server thread/INFO]: Generating keypair
+[11:15:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:15:00] [Server thread/INFO]: Using default channel type
+[11:15:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:15:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:15:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:15:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:15:00] [Server thread/INFO]: Preparing level "miet-server"
+[11:15:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:15:03] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:15:03] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:15:03] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:15:03] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:15:03] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:15:03] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:15:04] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:15:04] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:15:05] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:15:05] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:15:06] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:15:06] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:15:07] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:15:07] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:15:08] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:15:08] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[11:15:09] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[11:15:09] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[11:15:10] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[11:15:10] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[11:15:11] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[11:15:11] [Worker-Main-9/INFO]: Preparing spawn area: 11%
+[11:15:12] [Worker-Main-12/INFO]: Preparing spawn area: 12%
+[11:15:12] [Worker-Main-11/INFO]: Preparing spawn area: 18%
+[11:15:13] [Worker-Main-12/INFO]: Preparing spawn area: 28%
+[11:15:13] [Worker-Main-10/INFO]: Preparing spawn area: 30%
+[11:15:14] [Worker-Main-12/INFO]: Preparing spawn area: 51%
+[11:15:14] [Worker-Main-14/INFO]: Preparing spawn area: 57%
+[11:15:15] [Worker-Main-12/INFO]: Preparing spawn area: 72%
+[11:15:15] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[11:15:16] [Worker-Main-10/INFO]: Preparing spawn area: 93%
+[11:15:17] [Server thread/INFO]: Time elapsed: 16241 ms
+[11:15:17] [Server thread/INFO]: Done (16.501s)! For help, type "help"
+[11:19:38] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:50772] logged in with entity id 302 at (2232.2606417357147, 66.0, 809.2574705179792)
+[11:19:38] [Server thread/INFO]: antisergey joined the game
+[11:32:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2424ms or 48 ticks behind
+[11:34:37] [Server thread/WARN]: antisergey moved too quickly! -8.623748204041021,1.7461092740512356,4.841866508497787
+[11:34:40] [Server thread/INFO]: antisergey lost connection: Timed out
+[11:34:40] [Server thread/INFO]: antisergey left the game
+[11:34:40] [Server thread/WARN]: handleDisconnection() called twice
+[11:35:59] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:50974] logged in with entity id 2524 at (2248.5077387615615, 66.00133597911214, 789.9885385936054)
+[11:35:59] [Server thread/INFO]: antisergey joined the game
+[11:37:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[11:42:06] [Server thread/INFO]: antisergey has completed the challenge [Cover Me in Debris]
+[11:44:49] [Server thread/WARN]: Mismatch in destroy block pos: gj{x=2244, y=65, z=799} gj{x=2244, y=64, z=799}
+[11:46:10] [Server thread/WARN]: Ignoring UseItemOnPacket from antisergey: hit position gj{x=2237, y=67, z=798} too far away from player gj{x=278, y=70, z=95}.
+[11:46:10] [Server thread/WARN]: Ignoring UseItemOnPacket from antisergey: hit position gj{x=2237, y=67, z=798} too far away from player gj{x=278, y=70, z=95}.
+[11:46:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[11:53:08] [Server thread/INFO]: antisergey burned to death
+[11:56:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[12:01:46] [Server thread/WARN]: antisergey moved too quickly! -6.43683909259903,-1.0,7.792312739932754
+[12:01:46] [Server thread/INFO]: antisergey lost connection: Timed out
+[12:01:46] [Server thread/INFO]: antisergey left the game
+[12:02:23] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:51318] logged in with entity id 7928 at (393.23148989084643, 50.0, 235.8143726718579)
+[12:02:23] [Server thread/INFO]: antisergey joined the game
+[12:02:24] [Server thread/INFO]: antisergey lost connection: Disconnected
+[12:02:24] [Server thread/INFO]: antisergey left the game
+[12:03:34] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:51324] logged in with entity id 8072 at (393.23148989084643, 50.0, 235.8143726718579)
+[12:03:34] [Server thread/INFO]: antisergey joined the game
+[12:08:35] [Server thread/INFO]: antisergey lost connection: Timed out
+[12:08:35] [Server thread/INFO]: antisergey left the game
+[12:09:27] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:51376] logged in with entity id 8923 at (240.97993248868403, 85.1212968405392, 443.3507847770699)
+[12:09:27] [Server thread/INFO]: antisergey joined the game
+[12:27:33] [Server thread/INFO]: antisergey has made the advancement [Hidden in the Depths]
+[12:41:13] [Server thread/INFO]: antisergey lost connection: Disconnected
+[12:41:13] [Server thread/INFO]: antisergey left the game
+[12:54:26] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:51836] logged in with entity id 11910 at (457.83414364788996, 38.0, 905.4035363451933)
+[12:54:26] [Server thread/INFO]: antisergey joined the game
+[14:05:38] [Server thread/INFO]: antisergey lost connection: Disconnected
+[14:05:38] [Server thread/INFO]: antisergey left the game
+[15:54:16] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:53680] logged in with entity id 16481 at (460.60489112658183, 47.0, 1151.4446695952743)
+[15:54:16] [Server thread/INFO]: antisergey joined the game
+[16:01:05] [Server thread/INFO]: antisergey has completed the challenge [Return to Sender]
+[16:35:35] [Server thread/INFO]: antikostya[/[0:0:0:0:0:0:0:1]:54078] logged in with entity id 18988 at (2224.7443493218243, 130.36072518447185, 820.5303949105119)
+[16:35:35] [Server thread/INFO]: antikostya joined the game
+[16:35:57] [Server thread/INFO]: [antikostya: Set own game mode to Survival Mode]
+[16:37:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[16:37:33] [Server thread/INFO]: <antikostya> 279 70 94
+[16:37:35] [Server thread/INFO]: antikostya lost connection: Disconnected
+[16:37:35] [Server thread/INFO]: antikostya left the game
+[16:59:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2285ms or 45 ticks behind
+[17:10:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[17:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[17:26:27] [Server thread/INFO]: antisergey lost connection: Disconnected
+[17:26:27] [Server thread/INFO]: antisergey left the game
+[19:33:06] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:55820] logged in with entity id 25447 at (476.10179734845167, 68.0, 93.30000001192093)
+[19:33:06] [Server thread/INFO]: antisergey joined the game
+[19:41:49] [Server thread/INFO]: yosiky[/[0:0:0:0:0:0:0:1]:55918] logged in with entity id 26502 at (591.3000000119209, 58.875, 731.4601202505327)
+[19:41:49] [Server thread/INFO]: yosiky joined the game
+[19:41:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[19:44:01] [Server thread/INFO]: yosiky lost connection: Disconnected
+[19:44:01] [Server thread/INFO]: yosiky left the game
+[19:45:58] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/27677, l='ServerLevel[miet-server]', x=2478.15, y=71.00, z=591.85]
+[19:46:10] [Server thread/INFO]: antikostya[/[0:0:0:0:0:0:0:1]:55962] logged in with entity id 27714 at (279.3854541203384, 70.0, 94.15021200046367)
+[19:46:10] [Server thread/INFO]: antikostya joined the game
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/27717, l='ServerLevel[miet-server]', x=2333.15, y=67.00, z=563.93]
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/27723, l='ServerLevel[miet-server]', x=2314.54, y=68.00, z=574.91]
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/27724, l='ServerLevel[miet-server]', x=2316.15, y=68.00, z=575.85]
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/27726, l='ServerLevel[miet-server]', x=2260.80, y=73.00, z=567.49]
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/27728, l='ServerLevel[miet-server]', x=2285.07, y=64.00, z=570.07]
+[19:46:12] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/27729, l='ServerLevel[miet-server]', x=2392.17, y=67.00, z=573.68]
+[19:46:13] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/27734, l='ServerLevel[miet-server]', x=2176.70, y=73.00, z=568.34]
+[19:46:13] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/27738, l='ServerLevel[miet-server]', x=2428.16, y=71.00, z=575.08]
+[19:46:13] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/27740, l='ServerLevel[miet-server]', x=2458.53, y=70.00, z=574.56]
+[19:46:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:47:12] [Server thread/INFO]: [antikostya: Set own game mode to Creative Mode]
+[19:47:22] [Server thread/INFO]: [antikostya: Set own game mode to Survival Mode]
+[19:47:48] [Server thread/INFO]: Brostin[/[0:0:0:0:0:0:0:1]:56000] logged in with entity id 28181 at (2200.5, 64.0, 881.5)
+[19:47:48] [Server thread/INFO]: Brostin joined the game
+[19:49:14] [Server thread/INFO]: yosiky[/[0:0:0:0:0:0:0:1]:56006] logged in with entity id 28549 at (596.855244059862, 53.875, 724.3659736973901)
+[19:49:14] [Server thread/INFO]: yosiky joined the game
+[19:49:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[19:50:26] [Server thread/INFO]: yosiky was slain by Hoglin
+[19:50:37] [Server thread/INFO]: Brostin has made the advancement [Suit Up]
+[19:51:27] [Server thread/INFO]: Brostin has made the advancement [Acquire Hardware]
+[19:52:21] [Server thread/INFO]: Brostin has made the advancement [Isn't It Iron Pick]
+[19:57:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[19:59:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[19:59:20] [Server thread/INFO]: Brostin has made the advancement [We Need to Go Deeper]
+[19:59:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11433ms or 228 ticks behind
+[20:00:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2383ms or 47 ticks behind
+[20:00:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3424ms or 68 ticks behind
+[20:00:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15320ms or 306 ticks behind
+[20:01:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
+[20:02:30] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/33391, l='ServerLevel[miet-server]', x=2217.21, y=67.00, z=544.79]
+[20:02:30] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/33394, l='ServerLevel[miet-server]', x=2184.68, y=71.00, z=559.29]
+[20:02:30] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/33395, l='ServerLevel[miet-server]', x=2156.20, y=65.00, z=552.49]
+[20:02:31] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/33396, l='ServerLevel[miet-server]', x=2266.54, y=70.00, z=557.77]
+[20:02:31] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/33397, l='ServerLevel[miet-server]', x=2259.76, y=70.00, z=557.15]
+[20:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[20:03:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3579ms or 71 ticks behind
+[20:04:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[20:04:52] [Server thread/INFO]: antikostya fell from a high place
+[20:07:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[20:09:26] [Server thread/INFO]: antisergey lost connection: Timed out
+[20:09:26] [Server thread/INFO]: antisergey left the game
+[20:10:19] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:56196] logged in with entity id 37164 at (2229.595965596736, 7.0, 791.0332363862626)
+[20:10:19] [Server thread/INFO]: antisergey joined the game
+[20:11:43] [Server thread/INFO]: yosiky was slain by Wither Skeleton
+[20:12:03] [Server thread/INFO]: Brostin fell from a high place
+[20:14:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[20:14:58] [Server thread/INFO]: <antikostya> 583 64 786
+[20:15:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[20:15:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3541ms or 70 ticks behind
+[20:19:01] [Server thread/INFO]: <antisergey> что делать
+[20:19:25] [Server thread/INFO]: <antikostya> нужны эндер перлы
+[20:19:45] [Server thread/INFO]: <antisergey> у нас их дома много
+[20:20:00] [Server thread/INFO]: <antikostya> неси сюда тогда
+[20:22:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[20:22:43] [Server thread/INFO]: <antisergey> я здесь
+[20:22:50] [Server thread/INFO]: <antisergey> что то еще надо?
+[20:23:03] [Server thread/INFO]: <antikostya> нкт
+[20:23:23] [Server thread/INFO]: <antikostya> заполни тогда порал глазами
+[20:23:45] [Server thread/INFO]: <antisergey> мне нужны блэйз роды
+[20:25:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[20:25:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[20:26:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4057ms or 81 ticks behind
+[20:26:46] [Server thread/WARN]: antisergey moved too quickly! 7.698897538399535,-0.9767592273805263,6.642911116116181
+[20:28:09] [Server thread/INFO]: <antikostya> есть булыжник
+[20:28:23] [Server thread/INFO]: <antisergey> у меня еще есть
+[20:28:55] [Server thread/INFO]: Brostin has made the advancement [Those Were the Days]
+[20:29:17] [Server thread/INFO]: Brostin has made the advancement [Monster Hunter]
+[20:29:22] [Server thread/INFO]: Brostin has made the advancement [Not Today, Thank You]
+[20:29:25] [Server thread/INFO]: <antisergey> где энд портал
+[20:31:12] [Server thread/INFO]: antisergey lost connection: Disconnected
+[20:31:12] [Server thread/INFO]: antisergey left the game
+[20:32:11] [Server thread/INFO]: Brostin has made the advancement [Stone Age]
+[20:33:48] [Server thread/INFO]: Brostin has made the advancement [Take Aim]
+[20:37:05] [Server thread/INFO]: Brostin was slain by Piglin Brute
+[20:42:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[20:42:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8088ms or 161 ticks behind
+[20:43:11] [Server thread/WARN]: UUID of added entity already exists: bih['Chicken'/50193, l='ServerLevel[miet-server]', x=2125.79, y=76.00, z=534.16]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50201, l='ServerLevel[miet-server]', x=2236.76, y=69.00, z=535.30]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50202, l='ServerLevel[miet-server]', x=2195.15, y=65.00, z=539.77]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50204, l='ServerLevel[miet-server]', x=2265.76, y=65.00, z=528.19]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50205, l='ServerLevel[miet-server]', x=2262.51, y=69.00, z=542.08]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50212, l='ServerLevel[miet-server]', x=2442.53, y=70.00, z=529.67]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50213, l='ServerLevel[miet-server]', x=2442.83, y=71.00, z=538.22]
+[20:43:12] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50214, l='ServerLevel[miet-server]', x=2248.51, y=69.00, z=542.22]
+[20:43:13] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50216, l='ServerLevel[miet-server]', x=2244.83, y=69.00, z=541.23]
+[20:43:13] [Server thread/WARN]: UUID of added entity already exists: bjq['Horse'/50219, l='ServerLevel[miet-server]', x=2330.69, y=64.00, z=534.16]
+[20:43:13] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50221, l='ServerLevel[miet-server]', x=2302.74, y=67.00, z=530.49]
+[20:43:13] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50225, l='ServerLevel[miet-server]', x=2233.55, y=67.00, z=539.65]
+[20:43:13] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50235, l='ServerLevel[miet-server]', x=2448.15, y=70.00, z=536.22]
+[20:43:57] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50635, l='ServerLevel[miet-server]', x=2307.14, y=67.00, z=526.18]
+[20:43:57] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50636, l='ServerLevel[miet-server]', x=2308.20, y=67.00, z=525.20]
+[20:43:57] [Server thread/WARN]: UUID of added entity already exists: bjq['Horse'/50637, l='ServerLevel[miet-server]', x=2312.04, y=65.00, z=522.99]
+[20:43:57] [Server thread/WARN]: UUID of added entity already exists: bjq['Horse'/50641, l='ServerLevel[miet-server]', x=2317.15, y=64.00, z=524.10]
+[20:43:57] [Server thread/WARN]: UUID of added entity already exists: bjq['Horse'/50642, l='ServerLevel[miet-server]', x=2314.79, y=65.00, z=525.53]
+[20:43:59] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50662, l='ServerLevel[miet-server]', x=2123.60, y=85.00, z=523.77]
+[20:43:59] [Server thread/WARN]: UUID of added entity already exists: bis['Pig'/50664, l='ServerLevel[miet-server]', x=2286.00, y=68.00, z=520.00]
+[20:43:59] [Server thread/WARN]: UUID of added entity already exists: bis['Pig'/50666, l='ServerLevel[miet-server]', x=2287.73, y=68.00, z=523.23]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50667, l='ServerLevel[miet-server]', x=2245.92, y=67.00, z=521.97]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50669, l='ServerLevel[miet-server]', x=2269.31, y=66.00, z=524.12]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50671, l='ServerLevel[miet-server]', x=2246.19, y=67.00, z=520.52]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50672, l='ServerLevel[miet-server]', x=2244.77, y=66.00, z=519.27]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/50673, l='ServerLevel[miet-server]', x=2246.55, y=66.00, z=519.55]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bis['Pig'/50674, l='ServerLevel[miet-server]', x=2271.20, y=67.00, z=517.74]
+[20:44:00] [Server thread/WARN]: UUID of added entity already exists: bij['Cow'/50675, l='ServerLevel[miet-server]', x=2455.19, y=70.00, z=522.86]
+[20:44:44] [Server thread/WARN]: UUID of added entity already exists: bis['Pig'/51018, l='ServerLevel[miet-server]', x=2291.90, y=63.00, z=509.39]
+[20:44:44] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/51020, l='ServerLevel[miet-server]', x=2312.24, y=65.00, z=508.82]
+[20:45:09] [Server thread/WARN]: UUID of added entity already exists: bix['Sheep'/51208, l='ServerLevel[miet-server]', x=2274.05, y=64.70, z=495.95]
+[20:45:49] [Server thread/WARN]: UUID of added entity already exists: bqd['Minecart with Chest'/51605, l='ServerLevel[miet-server]', x=2483.50, y=45.06, z=539.50]
+[20:51:20] [Server thread/INFO]: yosiky lost connection: Timed out
+[20:51:20] [Server thread/INFO]: yosiky left the game
+[21:11:13] [Server thread/INFO]: antisergey[/[0:0:0:0:0:0:0:1]:56792] logged in with entity id 60457 at (460.86535423819936, 55.0, 364.40510151798395)
+[21:11:13] [Server thread/INFO]: antisergey joined the game
+[21:12:58] [Server thread/INFO]: antisergey was slain by Wither Skeleton
+[21:13:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[21:13:18] [Server thread/INFO]: antisergey lost connection: Disconnected
+[21:13:18] [Server thread/INFO]: antisergey left the game
+[21:14:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[21:14:31] [Server thread/INFO]: [antikostya: Set own game mode to Spectator Mode]
+[21:14:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4415ms or 88 ticks behind
+[21:15:10] [Server thread/INFO]: [antikostya: Set own game mode to Creative Mode]
+[21:15:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[21:16:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2758ms or 55 ticks behind
+[21:16:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
+[21:16:35] [Server thread/INFO]: [antikostya: Set own game mode to Spectator Mode]
+[21:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[21:17:16] [Server thread/INFO]: [antikostya: Set own game mode to Creative Mode]
+[21:17:30] [Server thread/INFO]: [antikostya: Set own game mode to Survival Mode]
+[21:17:47] [Server thread/INFO]: antikostya lost connection: Disconnected
+[21:17:47] [Server thread/INFO]: antikostya left the game
+[21:17:54] [Server thread/INFO]: Brostin lost connection: Disconnected
+[21:17:54] [Server thread/INFO]: Brostin left the game
+[21:20:05] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:20:05] [Server thread/INFO]: Saved the game
+[21:20:12] [Server thread/INFO]: Stopping the server
+[21:20:12] [Server thread/INFO]: Stopping server
+[21:20:12] [Server thread/INFO]: Saving players
+[21:20:12] [Server thread/INFO]: Saving worlds
+[21:20:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:overworld
+[21:20:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:the_nether
+[21:20:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[miet-server]'/minecraft:the_end
+[21:20:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (miet-server): All chunks are saved
+[21:20:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:20:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:20:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
